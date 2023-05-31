@@ -19,7 +19,7 @@ require('dotenv').config();
 mongoose.set("strictQuery", false);
 
 // Define the database URL to connect to.
-const mongoDB = "mongodb://127.0.0.1/freelancer2";
+const mongoDB = "mongodb+srv://keyesiamrasekataihoyegesibeka:<keyesiamrasekataihoyegesibeka>@confess.wwk6tpq.mongodb.net/?retryWrites=true&w=majority";
 
 // Wait for database to connect, logging an error if there is a problem
 main().catch((err) => console.log(err));
